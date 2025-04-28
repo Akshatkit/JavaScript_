@@ -71,3 +71,57 @@ null , Undefined -> Number = Opt 0
 // let convertVariable = Number(StringType)
 // console.log(typeof(convertVariable));
 // console.log(convertVariable);
+
+// ----------------------Operator--------------------
+
+// Arithmetic Operator
+/*
+console.log(10 + 20); // Addition
+console.log(10 - 20); // Subtraction
+console.log(10 * 20); // Multiplication
+console.log(10 / 20); // Division
+console.log(10 % 20); // Modulus
+console.log(10 ** 20); // Exponentiation
+
+// Assignment Operator
+console.log(10 > 20); // Grater than
+console.log(10 < 20); // Less than
+console.log(10 >= 20); // Grater than or equal to
+console.log(10 <= 20); // Less than or equal to
+console.log(10 == 20); // Equal to
+console.log(10 === 20); // Strict equal to
+console.log(10 != 20); // Not equal to
+console.log(10 !== 20); // Strict not equal to
+console.log(10 && 20); // Logical AND
+console.log(10 || 20); // Logical OR
+console.log(!10); // Logical NOT
+// Increment and Decrement Operator
+let a = 10;
+let b = 20;
+console.log(a++); // Postfix Increment
+console.log(++a); // Prefix Increment
+console.log(b--); // Postfix Decrement
+console.log(--b); // Prefix Decrement
+*/
+
+// console.log("02"+5); // String Concatenation
+// console.log(2+'5'); 
+// console.log(2+5+'02'); 
+// console.log(null+1);
+// console.log(1+null); 
+// console.log(1+undefined); // NaN
+// console.log(undefined+1); // NaN
+
+// console.log(2+true); // 3
+// console.log(2+false); // 2
+// console.log(2+null); // 2
+
+// console.log(2+undefined); // NaN
+// console.log(2+Symbol(1)); // TypeError
+
+// console.log("2"==2); // true
+// console.log("2"===2); // false
+// console.log("2"!=2); // false
+// console.log("2"!==2); // true
+
+
