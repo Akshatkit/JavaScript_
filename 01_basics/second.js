@@ -78,31 +78,34 @@
 // string is a immutable data type
 // string is a collection of characters
 
-let str1 = "hello";
-let str2 = "                      akshat          ";
+// let str1 = "hello";
+// let str2 = "                      akshat          ";
 
-let string2 = new String("Akshat");
-console.log(string2); // [String: 'Akshat']
-console.log("Hello my name is ${string2} "); // hello
+// let string2 = new String("Akshat");
+// console.log(string2); // [String: 'Akshat']
+// console.log("Hello my name is ${string2} "); // hello
 
 
 // console.log(str1.length); // 5
 // console.log(str2.toUpperCase()); // HELLO
 // console.log(str2);
 
-console.log(str1.charAt(2)); // hello
-console.log(str1.indexOf('o')); // h
+// console.log(str1.charAt(2)); // hello
+// console.log(str1.indexOf('o')); // h
 
-console.log(str1.lastIndexOf('l')); // 3
-console.log(str1.slice(1, 4)); // ell
-console.log(str1.substring(1, 4)); // ell
-console.log(str1.substr(1, 4)); // ello
-console.log(str1.split('l')); // [ 'he', 'lo' ]
-console.log(str1.replace('l', 'L')); // heLlo
-console.log(str1.replaceAll('l', 'L')); // heLLo
-console.log(str1.includes('l')); // true
-console.log(str1.startsWith('h')); // true
-console.log(str1.endsWith('o')); // true
-console.log(str2.trim()); // hello
-console.log(str2.trimStart()); // hello
-console.log(str2.trimEnd()); // hello
+// console.log(str1.lastIndexOf('l')); // 3
+// console.log(str1.slice(1, 4)); // ell
+// console.log(str1.substring(1, 4)); // ell
+// console.log(str1.substr(1, 4)); // ello
+// console.log(str1.split('l')); // [ 'he', 'lo' ]
+// console.log(str1.replace('l', 'L')); // heLlo
+// console.log(str1.replaceAll('l', 'L')); // heLLo
+// console.log(str1.includes('l')); // true
+// console.log(str1.startsWith('h')); // true
+// console.log(str1.endsWith('o')); // true
+// console.log(str2.trim()); // hello
+// console.log(str2.trimStart()); // hello
+// console.log(str2.trimEnd()); // hello
+
+let num  = new Number(20)
+console.log(num)
