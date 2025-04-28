@@ -81,6 +81,11 @@
 let str1 = "hello";
 let str2 = "                      akshat          ";
 
+let string2 = new String("Akshat");
+console.log(string2); // [String: 'Akshat']
+console.log("Hello my name is ${string2} "); // hello
+
+
 // console.log(str1.length); // 5
 // console.log(str2.toUpperCase()); // HELLO
 // console.log(str2);
