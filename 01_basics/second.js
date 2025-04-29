@@ -109,3 +109,7 @@
 
 let num  = new Number(20)
 console.log(num)
+
+console.log(num.toString().length)
+console.log(num.toFixed(2))
+console.log(num.toPrecision(2))
