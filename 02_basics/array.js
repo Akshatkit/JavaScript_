@@ -30,4 +30,15 @@ const arr2 = ["akshat","sakshi","lala","kalu"]
 // console.log("B", arr1.splice(1,3))
 
 
+// spread
 
+// let newArr = [...arr1,...arr2]
+
+// console.log(newArr)
+
+let newarr = [1,2,3,[10,20,30,40],[[100,200,300]]]
+const newArr1 = newarr.flat(Infinity)
+
+console.log(newArr1)
+
+// of, from, Array.isArray
