@@ -107,7 +107,7 @@
 // console.log(str2.trimStart()); // hello
 // console.log(str2.trimEnd()); // hello
 
-let num  = new Number(20)
+// let num  = new Number(20)
 // console.log(num)
 
 // console.log(num.toString().length)
@@ -117,7 +117,7 @@ let num  = new Number(20)
 
 
 //-----------math-----------
-console.log(Math)
+// console.log(Math)
 
 // console.log(Math.min(20,10,5,2,40,11,3,6))
 // console.log(Math.max(20,10,5,2,40,11,3,6))
@@ -126,11 +126,26 @@ console.log(Math)
 // console.log(Math.ceil(4.2))
 // console.log(Math.round(4.4))
 
-console.log(Math.random()*10)
-const Min =10
-const Max = 20
-let newNum =(Max - Min + 1 )+Min
-console.log(newNum)
-for (i=0;i<20;i++){
-console.log(Math.floor(Math.random()*(Max-Min +1)+Min))
-}
+// console.log(Math.random()*10)
+// const Min =10
+// const Max = 20
+// let newNum =(Max - Min + 1 )+Min
+// console.log(newNum)
+// for (i=0;i<20;i++){
+// console.log(Math.floor(Math.random()*(Max-Min +1)+Min))
+// }
+
+let objDT = new Date()
+// console.log(objDT)
+
+// console.log(objDT.toString());
+
+// console.log(objDT.toDateString())
+// console.log(objDT.toLocaleString())
+// console.log(objDT.toJSON())
+// console.log(objDT.toLocaleDateString())
+// console.log(objDT.toISOString())
+// console.log(objDT.toLocaleDateString())
+
+let objDT1 = new Date(2032 , 1 , 25,5,32)
+console.log(objDT1.toISOString())
