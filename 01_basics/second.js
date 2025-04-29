@@ -135,7 +135,7 @@
 // console.log(Math.floor(Math.random()*(Max-Min +1)+Min))
 // }
 
-let objDT = new Date()
+// let objDT = new Date()
 // console.log(objDT)
 
 // console.log(objDT.toString());
@@ -147,5 +147,17 @@ let objDT = new Date()
 // console.log(objDT.toISOString())
 // console.log(objDT.toLocaleDateString())
 
-let objDT1 = new Date(2032 , 1 , 25,5,32)
-console.log(objDT1.toISOString())
+// let objDT1 = new Date(2032 , 1 , 25,5,32)
+// console.log(objDT1.toISOString())
+
+// let mytimestamp = new Date()
+
+// console.log(mytimestamp.getDate())
+// console.log(mytimestamp.getDay())
+// console.log(mytimestamp.getTime())
+// console.log(mytimestamp.getSeconds())
+// console.log(mytimestamp.getMonth())
+// console.log(mytimestamp.getDate())
+// console.log(mytimestamp.getDate())
+
+
