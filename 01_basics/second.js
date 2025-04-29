@@ -108,8 +108,29 @@
 // console.log(str2.trimEnd()); // hello
 
 let num  = new Number(20)
-console.log(num)
+// console.log(num)
 
-console.log(num.toString().length)
-console.log(num.toFixed(2))
-console.log(num.toPrecision(2))
+// console.log(num.toString().length)
+// console.log(num.toFixed(2))
+// console.log(num.toPrecision(2))
+
+
+
+//-----------math-----------
+console.log(Math)
+
+// console.log(Math.min(20,10,5,2,40,11,3,6))
+// console.log(Math.max(20,10,5,2,40,11,3,6))
+
+// console.log(Math.floor(4.7))
+// console.log(Math.ceil(4.2))
+// console.log(Math.round(4.4))
+
+console.log(Math.random()*10)
+const Min =10
+const Max = 20
+let newNum =(Max - Min + 1 )+Min
+console.log(newNum)
+for (i=0;i<20;i++){
+console.log(Math.floor(Math.random()*(Max-Min +1)+Min))
+}
