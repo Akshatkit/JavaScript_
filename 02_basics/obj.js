@@ -71,3 +71,15 @@
 // console.log(Object.keys(obj1))
 // console.log(Object.values(obj1))
 // console.log(Object.entries(obj1))
+
+
+// -------Object de-structuring-----
+
+// const obj = {
+//     id : 1001 ,
+//     name : "Akshat",
+//     email:"akshat@gmail.com"
+// }
+
+// const {email} = obj
+// console.log(email)
