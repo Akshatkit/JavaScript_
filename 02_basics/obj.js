@@ -42,10 +42,32 @@
 
 // const tinderUser = new Object()  // singalton Object
 
-const tinderUser = {
-    email: "akshatBaniyaa@gmail.com",
-    userDetail:{username: "Akshat gupta",
-        userPhnone : {Pnum1:"8858442241",Pnum2:"8574597008"}
-    )
-}
+// const tinderUser = {
+//     email: "akshatBaniyaa@gmail.com",
+//     userDetail:{username: "Akshat gupta",
+//         userPhnone : {Pnum1:"8858442241",Pnum2:"8574597008"}
+//     }
+// }
 
+// console.log(tinderUser.userDetail?.userPhnone.Pnum1)
+
+// const obj1 = {A:"a",B:"b"}
+// const obj2 ={ C:"a",D:"b"}
+
+// const obj3 = {obj1 , obj2} //{ obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'a', '4': 'b' } }
+
+// const obj3 = Object.assign({},obj1,obj2)  //{ '1': 'a', '2': 'b', '3': 'a', '4': 'b' }
+
+// const obj3 = {...obj1 , ...obj2}  // spreed 
+
+
+// const newArr = [
+//    {A:"a",B:"b"},
+//    {C:"a",D:"b"}
+// ]
+
+
+
+// console.log(Object.keys(obj1))
+// console.log(Object.values(obj1))
+// console.log(Object.entries(obj1))
