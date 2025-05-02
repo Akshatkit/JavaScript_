@@ -31,8 +31,35 @@ function greet(username ){
         return
 
     }
-    console.log('Hello Mr.'+username)
+    console.log(`Hello Mr. ${username}`)
 
 }
-greet()
+// greet('Akshat')
+
+const user = {
+    name : 'Akshat gupta',
+    price : 200
+}
+
+function display(userprint){
+    return `Hi ${userprint.name} your purchasing bill ${userprint.price}`
+}
+
+// console.log(display(user))
+
+
+
+function show(...itemPrice){
+    let sum= 0;
+    for (let i =0; i< itemPrice.length;i++){
+        sum = sum + itemPrice[i]
+    }
+    return sum
+}
+
+// let totalPrice = show(400, 500 , 20,114, 25)
+// console.log(`total Price is ${totalPrice}`)
+
+
+
 
