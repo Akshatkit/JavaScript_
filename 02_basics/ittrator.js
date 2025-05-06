@@ -215,3 +215,52 @@ const arr =[ 1,2,3,4,5]
 // console.log(num2)
 
 
+
+//_____________REDUCE____________
+
+let num = [ 2,3,4,5,]
+
+// let rslt = num.reduce((i ,itm) => i*itm , 1 )
+
+// let rslt = num.reduce((i , itm)=> {
+//     return i+itm
+    
+// },0)
+
+// console.log(rslt);
+
+let ShopingSlip = [
+    {
+        itemName :"Shampoo",
+        price :245
+    },
+    {
+        itemName :"Oil",
+        price :199
+    },
+    {
+        itemName :"Tooth brush",
+        price : 84
+    },
+    {
+        itemName :"Shop",
+        price :120
+    },
+    {
+        itemName :"Diturgent",
+        price : 499
+    },
+]
+
+let total = ShopingSlip.reduce((Updateprice , prices )=> Updateprice + prices.price, 0)
+
+let totals = ShopingSlip.reduce((Updateprice , prices )=> {
+
+    console.log(ShopingSlip.itemName+"    :"+ShopingSlip.price)
+                                
+    return Updateprice + prices.price },0
+    )
+
+console.log(`Total Amount  : ${totals}`);
+
+console.log(total);
