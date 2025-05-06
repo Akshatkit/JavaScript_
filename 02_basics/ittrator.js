@@ -172,3 +172,46 @@ const arr =[ 1,2,3,4,5]
 // arr.forEach(ptr)
 
 
+// const book = [
+
+//     { Title : "Book One ", genre : "Fiction ", publis : 1999 , edition : 4},
+//     { Title : "Book Two ", genre : "Non-Fiction ", publis : 1992 , edition : 6},
+//     { Title : "Book Three ", genre : "Science ", publis : 2004 , edition : 3},
+//     { Title : "Book Four", genre : "Math ", publis : 2009 , edition : 2},
+//     { Title : "Book Five", genre : "Non - Fiction ", publis :1999  , edition :5 },
+//     { Title : "Book Six", genre : "History ", publis : 1986 , edition :4 },
+//     { Title : "Book Seven", genre : "Math ", publis :2002  , edition :3 },
+//     { Title : "Book Eight", genre : "Science ", publis : 2005 , edition :2 },
+//     { Title : "Book Nine", genre : "Fiction ", publis :1996  , edition : 7},
+//     { Title : "Book Ten", genre : "Fiction ", publis : 1998 , edition : 8},
+//     { Title : "Book Eleven", genre : "Non - Fiction ", publis : 2001 , edition : 2}
+// ]
+
+// console.log(book.length);
+
+// let Bookdetail = book.filter((bk) => bk.publis <= 2000)
+
+
+
+// console.log(Bookdetail);
+
+
+
+// -----------------=map & chaining----------
+
+// const num = [14,12,15,10,25,32]
+
+// let nNum = num.map((i)=>i*2)
+
+// console.log(nNum)
+
+// let num1 = num.map((i)=>i*2).map((i)=>i+10)
+
+// console.log(num1)
+
+
+// let num2 = num.map((i)=>i*2).map((i)=>i+10).filter((i)=> i>=40) //filter use for true and false
+
+// console.log(num2)
+
+
